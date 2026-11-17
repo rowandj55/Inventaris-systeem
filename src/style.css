@@ -43,3 +43,48 @@ table {
 
 /* ---------- NEW STYLE CONFIG ---------- */
 
+
+.groupContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+
+.container {
+    padding: 1rem 2rem;
+}
+
+li {
+    border: 1px solid;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: -1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+#totalCost {
+    text-align: end;
+}
+
+a {
+   padding: 0.5rem 1rem; 
+}
+
+tr:first-child, tr:last-child {
+    border: 0;
+}
+
+#submitButtons {
+    display: flex;
+    justify-content: space-evenly;
+}

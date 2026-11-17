@@ -1,7 +1,16 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
+      <nav class="groupContainer">
+        <RouterLink to="/">Go to Overview</RouterLink>
+        <RouterLink to="/create">Go to Create</RouterLink>
+        <RouterLink to="/order">Go to Order</RouterLink>
+    </nav>
+    <main>
+        <RouterView />
+    </main>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+
+
+
+</script>
